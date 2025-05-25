@@ -1,0 +1,26 @@
+git init
+criei os arquivos manualmente
+git add arq1.txt
+git add arq2.txt
+git add arq3.txt
+git commit -m "primeiro commit"
+modifiquei os arquivos manualmente
+git diff
+git add arq1.txt
+git add arq2.txt
+git commit -m "alterando os arquivos arq1 e arq2"
+git log
+git log --oneline
+git log --stat
+git revert HEAD --no-edit
+git stash
+git checkout -b nova-branch
+git checkout master
+git stash pop
+git reflog
+git tag -a v1.0 -m "Versão estável inicial" $(git log --pretty=format:%H | tail -n 1)
+got 
+git remote add origin https://github.com/Rafael-Sil/Tarefa3.git
+git add comandos.txt
+git commit -m "Adicionando o arquivo comandos.txt"
+git push -u origin master
